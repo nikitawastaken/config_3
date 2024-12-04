@@ -1,0 +1,6 @@
+device_id = 12345;
+firmware_version = 1.0.3;
+network = {
+    ssid = MyWiFi;
+    password = secure123;
+};

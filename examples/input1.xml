@@ -1,0 +1,12 @@
+<configuration>
+    <dictionary>
+        <entry name="timeout">30</entry>
+        <entry name="retry_count">5</entry>
+        <entry name="settings">
+            <dictionary>
+                <entry name="theme">dark</entry>
+                <entry name="font_size">14</entry>
+            </dictionary>
+        </entry>
+    </dictionary>
+</configuration>

@@ -1,0 +1,12 @@
+<configuration>
+    <dictionary>
+        <entry name="server_port">8080</entry>
+        <entry name="log_level">info</entry>
+        <entry name="database">
+            <dictionary>
+                <entry name="host">localhost</entry>
+                <entry name="port">5432</entry>
+            </dictionary>
+        </entry>
+    </dictionary>
+</configuration>

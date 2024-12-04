@@ -1,0 +1,6 @@
+timeout = 30;
+retry_count = 5;
+settings = {
+    theme = dark;
+    font_size = 14;
+};

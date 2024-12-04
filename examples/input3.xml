@@ -1,0 +1,12 @@
+<configuration>
+    <dictionary>
+        <entry name="device_id">12345</entry>
+        <entry name="firmware_version">1.0.3</entry>
+        <entry name="network">
+            <dictionary>
+                <entry name="ssid">MyWiFi</entry>
+                <entry name="password">secure123</entry>
+            </dictionary>
+        </entry>
+    </dictionary>
+</configuration>
