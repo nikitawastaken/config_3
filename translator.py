@@ -41,9 +41,15 @@ def parse_dictionary(element):
 
 
 def parse_configuration(xml_root):
+    """Парсинг корневого элемента <configuration>."""
     if xml_root.tag != "configuration":
         raise ValueError("Root element must be <configuration>")
-    return parse_dictionary(xml_root.find("dictionary"))
+    
+    dictionary_element = xml_root.find("dictionary")
+    if dictionary_element is None:
+        raise ValueError("Missing required <dictionary> element in <configuration>")
+    
+    return parse_dictionary(dictionary_element)
 
 
 def format_value(value):
